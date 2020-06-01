@@ -1,0 +1,161 @@
+body{
+
+    font-weight: lighter;
+}
+/*COMON STELES*/
+.conteiner {
+    width: 1200px;
+    margin: auto;
+}
+
+/*header*/
+
+#header{
+    height: 100px;
+}
+/*navigation*/
+#main-nav{
+    background-color: red;
+    text-align: center;
+}
+#main-nav li{
+    display: inline-block;
+    
+}
+#main-nav a{
+    padding: 1.7em 1.2em;
+    display: inline-block;
+    text-transform: uppercase;
+}
+/*FRESH-NEWS*/
+#fresh-news{
+    height: 500px;
+}
+/*COVID NEWS*/
+#covid-news{
+    background-color: whitesmoke;
+}
+#covid-news .col-left{
+    width: 65%;
+    background-color: whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+}
+#covid-news .col-right{
+    width: 29.5%;
+    background-color: whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#covid-news .col-left .featured-news img{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+#covid-news .col-left .featured-news p{
+    columns: 2;
+}
+#covid-news .col-left .featured-news #firstbuton{
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    margin-bottom: 5px;
+}
+#covid-news .col-left .featured-news #secondbuton{
+    border-radius: 5px;
+    background-color: rgb(39, 113, 224);
+    border: none;
+}
+
+    #covid-news .col-left .featured-news small{
+        color: grey;
+        font-size: small;
+        
+    }
+    #covid-news .col-left .other-news{
+        display: block;
+        padding-top: 15px;
+        
+       
+    }
+    #covid-news .col-left .other-news a{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 45%;
+        float: left;
+        padding: 5px;
+        
+        
+    }
+    #covid-news .col-left .other-news a img{
+        float: left;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    #covid-news .col-right #title2{
+        display: block;
+        width: 29,5%;
+        height: 60px;
+        background-color: red;
+        color: honeydew;
+        border-radius: 15px;
+    }
+    #covid-news .col-right #title2 h2{
+        text-align: left;
+        padding: 15px;
+    }
+    #covid-news .col-right h3{
+        padding: 10px;
+    }
+    #covid-news .col-right h4{
+        padding: 5px;
+    }
+    #covid-news .col-right li{
+        padding: 10px;
+        list-style: none;
+        
+    }
+    #covid-news .col-right .events{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+    #covid-news .col-right .events::before{
+        
+        color: red;
+        border: none;
+    }
+    #covid-news .col-right .events:hover{
+        color: red;
+
+    }
+    #cifre1{
+        color: orangered;
+        font-size: larger;
+        font-weight: 1000 ;
+        padding: 10px;
+    }
+    #cifre2{
+        color: red;
+        font-size: larger;
+        font-weight: 1000 ;
+        padding: 10px;
+    }
+    #cifre3{
+        color: green;
+        font-size: larger;
+        font-weight: 1000 ;
+        padding: 10px;
+    }
+    #cifre4{
+        color: orangered;
+        font-size: larger;
+        font-weight: 1000 ;
+        padding: 10px;
+    }
+
+
+   
